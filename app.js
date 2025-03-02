@@ -6,6 +6,6 @@ const router = require("./routes/router");
 
 app.use(express.json());
 
-app.use("/", router);
+app.use("/api/v1", router);
 
 module.exports=app;
